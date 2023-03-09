@@ -1,0 +1,120 @@
+long_name,player_positions,overall,potential,value_eur,wage_eur,age,dob,height_cm,weight_kg,club_name,nationality_name,preferred_foot,real_face,n_socios,titulos
+Karim Benzema,"CF, ST",89,89,66000000.0,350000.0,33,1987-12-19,185,81,Real Madrid CF,France,Right,Yes,91701,100
+Thibaut Courtois,GK,89,91,85500000.0,250000.0,29,1992-05-11,199,96,Real Madrid CF,Belgium,Left,Yes,91701,100
+Carlos Henrique Venancio Casimiro,CDM,89,89,88000000.0,310000.0,29,1992-02-23,185,84,Real Madrid CF,Brazil,Right,Yes,91701,100
+Toni Kroos,CM,88,88,75000000.0,310000.0,31,1990-01-04,183,76,Real Madrid CF,Germany,Right,Yes,91701,100
+Luka Modrić,CM,87,87,32000000.0,190000.0,35,1985-09-09,172,66,Real Madrid CF,Croatia,Right,Yes,91701,100
+Eden Hazard,LW,85,85,52000000.0,240000.0,30,1991-01-07,175,74,Real Madrid CF,Belgium,Right,Yes,91701,100
+Daniel Carvajal Ramos,RB,85,85,47500000.0,210000.0,29,1992-01-11,173,73,Real Madrid CF,Spain,Right,Yes,91701,100
+David Olatukunbo Alaba,"CB, LB",84,84,35500000.0,195000.0,29,1992-06-24,180,78,Real Madrid CF,Austria,Left,Yes,91701,100
+Wissam Ben Yedder,ST,84,84,41500000.0,88000.0,30,1990-08-12,170,68,AS Monaco,France,Right,Yes,10000,16
+Kevin Volland,"ST, CF",83,83,37000000.0,83000.0,28,1992-07-30,179,85,AS Monaco,Germany,Left,Yes,10000,16
+Marco Asensio Willemsen,"RW, LW",83,86,48000000.0,190000.0,25,1996-01-21,182,76,Real Madrid CF,Spain,Left,Yes,91701,100
+Ferland Mendy,LB,83,86,43500000.0,170000.0,26,1995-06-08,180,73,Real Madrid CF,France,Left,Yes,91701,100
+Federico Santiago Valverde Dipetta,CM,83,89,58000000.0,160000.0,22,1998-07-22,182,78,Real Madrid CF,Uruguay,Right,Yes,91701,100
+Gareth Frank Bale,"RM, RW",82,82,25000000.0,170000.0,31,1989-07-16,185,82,Real Madrid CF,Wales,Left,Yes,91701,100
+Francisco Román Alarcón Suárez,"CAM, CM, LW",82,82,30000000.0,175000.0,29,1992-04-21,176,79,Real Madrid CF,Spain,Right,Yes,91701,100
+Éder Gabriel Militão,CB,82,89,56500000.0,130000.0,23,1998-01-18,186,78,Real Madrid CF,Brazil,Right,Yes,91701,100
+José Ignacio Fernández Iglesias,"CB, RB, LB",81,81,17500000.0,140000.0,31,1990-01-18,180,76,Real Madrid CF,Spain,Right,Yes,91701,100
+James Ward-Prowse,CM,81,84,33500000.0,69000.0,26,1994-11-01,173,66,Southampton,England,Right,Yes,15000,3
+Lucas Vázquez Iglesias,"RW, RB, RM",81,81,25000000.0,170000.0,30,1991-07-01,173,70,Real Madrid CF,Spain,Right,Yes,91701,100
+Marcelo Vieira da Silva Júnior,LB,80,80,11000000.0,135000.0,33,1988-05-12,174,75,Real Madrid CF,Brazil,Left,Yes,91701,100
+Vinícius José Paixão de Oliveira Júnior,LW,80,90,46500000.0,120000.0,20,2000-07-12,176,73,Real Madrid CF,Brazil,Right,Yes,91701,100
+Ruben Aguilar,RB,79,79,16000000.0,53000.0,28,1993-04-26,172,71,AS Monaco,France,Right,No,10000,16
+Aleksandr Golovin,"CM, CAM, CF",79,83,24500000.0,53000.0,25,1996-05-30,180,69,AS Monaco,Russia,Right,No,10000,16
+Luka Jović,ST,79,84,27000000.0,130000.0,23,1997-12-23,182,85,Real Madrid CF,Serbia,Right,Yes,91701,100
+Aurélien Tchouaméni,"CM, CDM",79,85,28000000.0,41000.0,21,2000-01-27,187,81,AS Monaco,France,Right,No,10000,16
+Rodrygo Silva de Goes,RW,79,88,38500000.0,115000.0,20,2001-01-09,174,64,Real Madrid CF,Brazil,Right,Yes,91701,100
+Oriol Romeu Vidal,"CDM, CM",78,78,12000000.0,53000.0,29,1991-09-24,183,83,Southampton,Spain,Right,Yes,15000,3
+Djibril Sidibé,"RB, CB",78,78,12500000.0,48000.0,28,1992-07-29,182,71,AS Monaco,France,Right,No,10000,16
+Gelson Dany Batalha Martins,"RM, LM, RW",78,79,16500000.0,50000.0,26,1995-05-11,173,74,AS Monaco,Portugal,Right,No,10000,16
+Youssouf Fofana,"CM, CDM",78,83,21500000.0,43000.0,22,1999-01-10,176,69,AS Monaco,France,Right,No,10000,16
+Eduardo Camavinga,"CM, CDM",78,89,29500000.0,44000.0,18,2002-11-10,182,68,Real Madrid CF,France,Left,Yes,91701,100
+Stuart Armstrong,"RM, CM",77,77,10500000.0,54000.0,29,1992-03-30,183,75,Southampton,Scotland,Right,Yes,15000,3
+Guillermo Alfonso Maripán Loaysa,CB,77,79,11000000.0,43000.0,27,1994-05-06,193,83,AS Monaco,Chile,Right,No,10000,16
+Daniel Ceballos Fernández,"CM, CDM",77,80,14500000.0,100000.0,24,1996-08-07,179,68,Real Madrid CF,Spain,Right,Yes,91701,100
+Kyle Walker-Peters,RB,77,82,15000000.0,41000.0,24,1997-04-13,174,64,Southampton,England,Right,Yes,15000,3
+Axel Arthur Disasi,CB,77,82,14500000.0,37000.0,23,1998-03-11,190,86,AS Monaco,France,Right,No,10000,16
+Romain Perraud,LB,77,83,15500000.0,41000.0,23,1997-09-22,173,68,Southampton,France,Left,No,15000,3
+Caio Henrique Oliveira Silva,"LB, LM",77,81,14000000.0,37000.0,23,1997-07-31,179,70,AS Monaco,Brazil,Left,No,10000,16
+Sofiane Diop,"LM, RM, CF",77,84,21500000.0,35000.0,21,2000-06-09,175,65,AS Monaco,France,Right,No,10000,16
+Francesc Fàbregas i Soler,"CM, CAM, CDM",76,76,3500000.0,44000.0,34,1987-05-04,179,76,AS Monaco,Spain,Right,Yes,10000,16
+Theo Walcott,RM,76,76,6000000.0,49000.0,32,1989-03-16,176,68,Southampton,England,Right,Yes,15000,3
+Nathan Redmond,LM,76,76,8000000.0,49000.0,27,1994-03-06,173,69,Southampton,England,Right,Yes,15000,3
+Salif Sané,CB,76,76,6000000.0,13000.0,30,1990-08-25,196,85,FC Schalke 04,Senegal,Right,Yes,150000,17
+Jan Bednarek,CB,76,82,10500000.0,42000.0,25,1996-04-12,189,77,Southampton,Poland,Right,Yes,15000,3
+Adam Armstrong,"ST, LW",76,82,12000000.0,46000.0,24,1997-02-10,172,69,Southampton,England,Right,Yes,15000,3
+Ché Adams,ST,76,81,11500000.0,46000.0,24,1996-07-13,178,70,Southampton,Scotland,Right,Yes,15000,3
+Krépin Diatta,RM,76,83,15000000.0,38000.0,22,1999-02-25,175,69,AS Monaco,Senegal,Right,No,10000,16
+Myron Boadu,ST,76,85,16500000.0,36000.0,20,2001-01-14,183,67,AS Monaco,Netherlands,Right,No,10000,16
+Benoît Badiashile Mukinayi,CB,76,84,15500000.0,29000.0,20,2001-03-26,194,75,AS Monaco,France,Left,No,10000,16
+Mohamed Salisu Abdul Karim,CB,76,84,15500000.0,38000.0,22,1999-04-17,191,85,Southampton,Ghana,Left,Yes,15000,3
+Fraser Forster,GK,75,75,1800000.0,34000.0,33,1988-03-17,201,93,Southampton,England,Right,Yes,15000,3
+Simon Terodde,ST,75,75,3600000.0,14000.0,33,1988-03-02,192,83,FC Schalke 04,Germany,Right,Yes,150000,17
+Alex McCarthy,GK,75,75,3000000.0,34000.0,31,1989-12-03,193,79,Southampton,England,Right,Yes,15000,3
+Mohamed Amine Elyounoussi,"LM, ST",75,75,6000000.0,46000.0,26,1994-08-04,178,70,Southampton,Norway,Right,Yes,15000,3
+Mariano Díaz Mejía,ST,75,75,6000000.0,115000.0,27,1993-08-01,180,76,Real Madrid CF,Dominican Republic,Right,No,91701,100
+Alexander Nübel,GK,75,80,7000000.0,34000.0,24,1996-09-30,193,88,AS Monaco,Germany,Right,Yes,10000,16
+Jesús Vallejo Lázaro,CB,75,79,7000000.0,82000.0,24,1997-01-05,184,79,Real Madrid CF,Spain,Right,Yes,91701,100
+Ralf Sebastian Fährmann,GK,74,74,2100000.0,9000.0,32,1988-09-27,197,98,FC Schalke 04,Germany,Right,Yes,150000,17
+Jack Stephens,CB,74,76,4500000.0,39000.0,27,1994-01-27,185,75,Southampton,England,Right,Yes,15000,3
+板仓 晃,CB,74,80,6000000.0,64000.0,24,1997-01-27,186,75,FC Schalke 04,Japan,Right,No,150000,17
+Moussa Djenepo,"LM, RM",74,80,6500000.0,37000.0,23,1998-06-15,177,65,Southampton,Mali,Right,Yes,15000,3
+Andriy Lunin,GK,74,85,8000000.0,59000.0,22,1999-02-11,192,87,Real Madrid CF,Ukraine,Right,No,91701,100
+Jean Lucas de Souza Oliveira,"CM, CDM",74,80,6500000.0,34000.0,23,1998-06-22,181,78,AS Monaco,Brazil,Right,Yes,10000,16
+Danny Latza,"CM, CDM",73,73,2500000.0,11000.0,31,1989-12-07,179,76,FC Schalke 04,Germany,Right,Yes,150000,17
+Reinhold Ranftl,RM,73,73,3000000.0,12000.0,29,1992-01-24,180,77,FC Schalke 04,Austria,Right,No,150000,17
+Ibrahima Diallo,"CDM, CM",73,80,6000000.0,31000.0,22,1999-03-08,179,68,Southampton,France,Right,Yes,15000,3
+Shane Patrick Long,ST,72,72,1100000.0,38000.0,34,1987-01-22,178,70,Southampton,Republic of Ireland,Right,Yes,15000,3
+Guðlaugur Victor Pálsson,"CDM, CB, CM",72,72,2000000.0,9000.0,30,1991-04-30,186,82,FC Schalke 04,Iceland,Right,No,150000,17
+Judilson Mamadu Tuncará Gomes,"CDM, CM",72,72,2000000.0,30000.0,29,1991-09-29,182,78,AS Monaco,Guinea Bissau,Right,No,10000,16
+Thomas Ouwejan,"LB, CM, LM",72,76,3100000.0,7000.0,24,1996-09-30,183,76,FC Schalke 04,Netherlands,Left,No,150000,17
+Lyanco Evangelista Silveira Neves Vojnović,CB,72,80,4900000.0,27000.0,24,1997-02-01,187,83,Southampton,Brazil,Right,No,15000,3
+Dominick Drexler,"CAM, CM, LM",71,71,1600000.0,9000.0,31,1990-05-26,182,71,FC Schalke 04,Germany,Right,No,150000,17
+Martin Fraisl,GK,71,73,1600000.0,7000.0,28,1993-05-10,187,79,FC Schalke 04,Austria,Right,No,150000,17
+Radosław Majecki,GK,71,78,3200000.0,13000.0,21,1999-11-16,193,78,AS Monaco,Poland,Right,No,10000,16
+Yan Valery,"RB, RWB",71,79,4000000.0,24000.0,22,1999-02-22,180,85,Southampton,France,Right,Yes,15000,3
+Jean Harisson Marcelin,CB,71,79,3900000.0,18000.0,21,2000-02-12,197,82,AS Monaco,France,Right,No,10000,16
+Ismail Joshua Jakobs,"LM, LWB",71,80,4200000.0,21000.0,21,1999-08-17,184,75,AS Monaco,Germany,Left,No,10000,16
+Antonio Blanco Conde,"CM, CDM",71,83,4500000.0,51000.0,20,2000-07-23,176,68,Real Madrid CF,Spain,Right,No,91701,100
+Vito Mannone,GK,70,70,525000.0,18000.0,33,1988-03-02,189,77,AS Monaco,Italy,Right,No,10000,16
+Marius Bülter,"CF, LW",70,70,1600000.0,9000.0,28,1993-03-29,188,85,FC Schalke 04,Germany,Right,No,150000,17
+Rodrigo Zalazar Martínez,"CM, CAM",70,78,3600000.0,11000.0,21,1999-08-12,178,72,FC Schalke 04,Uruguay,Right,No,150000,17
+Armando Broja,ST,70,84,3800000.0,29000.0,19,2001-09-10,191,75,Southampton,Albania,Right,No,15000,3
+Eliot Matazo,"CDM, CM",70,81,3200000.0,12000.0,19,2002-02-15,174,67,AS Monaco,Belgium,Right,No,10000,16
+Marcin Kamiński,CB,69,69,1200000.0,6000.0,29,1992-01-15,192,84,FC Schalke 04,Poland,Left,Yes,150000,17
+Dries Wouters,"CDM, CM, LB",69,74,1900000.0,5000.0,24,1997-01-28,191,81,FC Schalke 04,Belgium,Left,No,150000,17
+Strahinja Pavlović,CB,69,80,2900000.0,13000.0,20,2001-05-24,194,84,AS Monaco,Serbia,Left,No,10000,16
+Chrislain Iris Aurel Matsima,CB,69,81,3100000.0,10000.0,19,2002-05-15,193,80,AS Monaco,France,Right,No,10000,16
+Timo Becker,"CB, RB",68,73,1600000.0,4000.0,24,1997-03-25,186,81,FC Schalke 04,Germany,Right,No,150000,17
+Malick Laye Thiaw,"CB, RB",68,81,2700000.0,3000.0,19,2001-08-08,191,80,FC Schalke 04,Germany,Right,No,150000,17
+Darko Churlinov,"LM, RM",67,77,2200000.0,7000.0,20,2000-07-11,180,73,FC Schalke 04,North Macedonia,Right,No,150000,17
+Marvin Olawale Akinlabi Park,"RW, RM, RB",67,79,2500000.0,30000.0,21,2000-03-07,178,63,Real Madrid CF,Spain,Right,No,91701,100
+Marvin Pieringer,ST,67,75,2300000.0,2000.0,21,1999-10-04,189,82,FC Schalke 04,Germany,Right,No,150000,17
+Michael Langer,GK,66,66,90000.0,2000.0,36,1985-01-06,195,93,FC Schalke 04,Austria,Right,No,150000,17
+Nathan Tella,"LM, ST",66,78,2100000.0,10000.0,21,1999-07-05,173,70,Southampton,England,Right,Yes,15000,3
+William Anthony Patrick Smallbone,"CM, RM",66,77,1900000.0,10000.0,21,2000-02-21,173,61,Southampton,Republic of Ireland,Right,Yes,15000,3
+Wilson Isidor,ST,66,77,1900000.0,11000.0,20,2000-08-27,186,74,AS Monaco,France,Right,No,10000,16
+Miguel Gutiérrez Ortega,LB,66,81,1900000.0,15000.0,19,2001-07-27,180,73,Real Madrid CF,Spain,Left,No,91701,100
+Sergio Arribas Calvo,"CAM, RM, LM",65,81,1800000.0,16000.0,19,2001-09-30,173,66,Real Madrid CF,Spain,Left,No,91701,100
+Kerim Çalhanoğlu,"LB, LM",64,81,1400000.0,800.0,18,2002-08-26,180,80,FC Schalke 04,Germany,Left,No,150000,17
+Sam McQueen,LB,63,66,575000.0,9000.0,26,1995-02-06,181,70,Southampton,England,Left,No,15000,3
+Florian Flick,"CDM, CM, CB",63,75,1100000.0,2000.0,21,2000-05-01,188,79,FC Schalke 04,Germany,Right,No,150000,17
+Luis Carbonell Artajona,"ST, LW",63,81,1200000.0,1000.0,18,2003-04-27,169,67,Real Madrid CF,Spain,Right,No,91701,100
+Mehmet Can Aydin,"RWB, RM",63,77,1100000.0,1000.0,19,2002-02-09,179,75,FC Schalke 04,Germany,Right,No,150000,17
+Blendi Idrizi,CAM,63,68,725000.0,2000.0,23,1998-05-02,179,72,FC Schalke 04,Kosovo,Right,No,150000,17
+Luis Federico López Andúgar,GK,63,76,1000000.0,11000.0,20,2001-05-08,190,76,Real Madrid CF,Spain,Right,No,91701,100
+Harry Lewis,GK,62,72,775000.0,6000.0,23,1997-12-20,191,77,Southampton,England,Right,Yes,15000,3
+Valentino Livramento,"RB, RWB",62,80,975000.0,2000.0,18,2002-11-12,173,65,Southampton,England,Right,No,15000,3
+中井 卓大,CAM,61,83,1000000.0,2000.0,17,2003-10-24,178,68,Real Madrid CF,Japan,Right,No,91701,100
+Henning Matriciani,"RB, CB",61,69,700000.0,1000.0,21,2000-03-14,185,78,FC Schalke 04,Germany,Right,No,150000,17
+Caleb Cassius Watts,"CM, CDM",60,76,625000.0,4000.0,19,2002-01-16,178,73,Southampton,Australia,Right,No,15000,3
+Israel Salazar Píriz,ST,60,80,675000.0,8000.0,18,2003-05-10,177,71,Real Madrid CF,Spain,Right,No,91701,100
+Yaroslav Mikhailov,"CAM, CM",59,76,575000.0,750.0,18,2003-04-28,182,75,FC Schalke 04,Russia,Left,No,150000,17
+Kgaogelo Chauke,"RM, CM",58,75,525000.0,3000.0,18,2003-01-08,177,65,Southampton,England,Right,No,15000,3
+Thierry Small,LB,58,77,475000.0,500.0,16,2004-08-01,175,68,Southampton,England,Left,No,15000,3
+Bleron Krasniqi,ST,57,70,400000.0,1000.0,19,2002-05-18,178,61,FC Schalke 04,Kosovo,Right,No,150000,17
+Oludare Olufunwa,"RB, CB",57,67,325000.0,4000.0,19,2001-07-29,178,64,Southampton,England,Right,No,15000,3
+Dynel Brown Kembo Simeu,CB,56,75,350000.0,4000.0,19,2002-03-13,187,75,Southampton,England,Right,No,15000,3
+Allan Tchaptchet,CB,56,75,350000.0,4000.0,19,2001-12-21,186,78,Southampton,France,Right,No,15000,3
+Ryan Finnigan,CM,55,73,325000.0,900.0,17,2003-09-23,178,69,Southampton,England,Right,No,15000,3
