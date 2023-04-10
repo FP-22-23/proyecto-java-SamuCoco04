@@ -30,7 +30,7 @@ public class Jugador implements Comparable<Jugador> {
 	private Boolean cara;
 	private Club club;
 	
-	public Jugador(String nombre, Integer valoracion, Integer potencial, Double valor,
+	public Jugador(String nombre,LinkedList<String> posiciones, Integer valoracion, Integer potencial, Double valor,
 			Double sueldo, Integer edad, LocalDate dob, Integer altura, Integer peso,Club club, 
 			String nacionalidad, String pieBueno, String cara) {
 		super();
@@ -62,6 +62,27 @@ public class Jugador implements Comparable<Jugador> {
 		this.nombre = nombre;
 		this.valoracion = valoracion;
 		this.sueldo = sueldo;
+	}
+	public Jugador(String nombre2, List<String> posiciones2, Integer valoracion2, Integer potencial2,
+			Double valor2, Double sueldo2, Integer edad2, LocalDate dob2, Integer altura2, Integer peso2, Club club2,String nacionalidad2,
+			PieBueno pie, Boolean cara2) {
+		super();
+		this.nombre = nombre2;
+		this.posiciones=posiciones2;
+		this.valoracion = valoracion2;
+		this.potencial = potencial2;
+		Checkers.check("El potencial no puede ser menor que la valoración", valoracion<potencial || valoracion==(potencial));
+		this.valor = valor2;
+		this.sueldo = sueldo2;
+		this.edad = edad2;
+		this.dob = dob2;
+		Checkers.check("No puede haber nacido despues de la fecha actual", dob.isBefore(LocalDate.now()));
+		this.altura = altura2;
+		this.peso = peso2;
+		this.nacionalidad = nacionalidad2;
+		this.pieBueno = (pie);
+		this.cara = (cara2);
+		this.club=club2;
 	}
 	public Double IMC() {
 		Double alt=(double) altura/100;
@@ -107,10 +128,10 @@ public class Jugador implements Comparable<Jugador> {
 			
 	}
 	public PieBueno formateaPie(String pieBueno) {
-		PieBueno res=PieBueno.Zurdo;
+		PieBueno res=PieBueno.Left;
 		switch(pieBueno) {
 		case "Right":
-		res=PieBueno.Diestro;
+		res=PieBueno.Right;
 		break;
 		}
 		return res;
@@ -128,7 +149,7 @@ public class Jugador implements Comparable<Jugador> {
 		return posiciones;
 	}
 
-	public void setPosiciones(List<String> posiciones) {
+	public void setPosiciones(LinkedList<String> posiciones) {
 		this.posiciones = posiciones;
 	}
 
