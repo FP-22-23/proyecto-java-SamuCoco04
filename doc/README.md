@@ -84,36 +84,40 @@ Compara los equipos.
 ### Factoría
 Descripción breve de la factoría.
 
-- _método 1_: Descripción del método 1.
--	_método 2_: Descripción del método 2.
+-leeJugadores: através de lafunción parsea jugador, lee un csv y crea una lista con los jugadores ya con sus atributos del tipo correcto. 
+-parseaJugador: parsea los atributos del jugador a los tipos correctos..
 
 ### Tipo Contenedor
 
-Descripción breve del tipo contenedor.
+El tipo contenedor es un club que constará con una serie de jugadores(integrantes), la liga en la que juegan, si juegan o no la champions y su posicion en liga..
 
 **Propiedades**:
-
-- _propiedad1_, de tipo \<Tipo1\>, consultable. 
-- _propiedad2_, de tipo \<Tipo2\>, consultable y modificable. 
-- ...
-- 
+List<Jugador> jugadores, lista con los jugadores
+Liga liga, enum con la liga en que juegan
+Boolean ucl, True si juegan ucl y false en caso contrario
+ Integer posicionLiga, la posicion del equipo en Liga.
 **Constructores**: 
 
-- C1: Descripción del constructor 1.
-- C2: Descripción del constructor 2.
+- C1: Todos los elementos menos la lista, la cual se inicializará vacía..
+- C2: Todos los elementos, incluidos la lista ya con unos jugadores..
 - ...
 
-**Restricciones**:
- 
-- R1: Descripción de la restricción 1.
-- R2: Descripción de la restricción 2.
+**Restricciones**:.
 - ...
 - 
-**Criterio de igualdad**: Describir el criterio de igualdad
+**Criterio de igualdad**: Compara todos los elementos.d
 
-**Criterio de ordenación**: Describir el criterio de ordenación (si lo hay).
+**Criterio de ordenación**:.
 
 **Otras operaciones**:
  
--	_método 1_: Descripción del método 1.
+-existeJugadorConEdad: Comprueba si existe un jugador con una edad dada.
+
+-mediaEdad: Calcula la media de la edad de los futbolistas.
+
+-filtraPieBueno: Hace una selección con los jugadores que sean hábiles con un pie.
+
+-agrupaPieBueno: Agrupa en un mapa a los jugadores diestros en una clave y a los zurdos en la otra.
+
+-cuentaPieBueno: Cuenta los jugadores diestros y los zurdos y los mete en un map..
 - ...
