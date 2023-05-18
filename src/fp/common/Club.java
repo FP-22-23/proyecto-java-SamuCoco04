@@ -24,6 +24,15 @@ public record Club(String equipo,Integer titulos,Integer socios) {
 		Club other = (Club) obj;
 		return Objects.equals(equipo, other.equipo);
 	}
+	public String getEquipo() {
+		return equipo;
+	}
+	public Integer getTitulos() {
+		return titulos;
+	}
+	public Integer getSocios() {
+		return socios;
+	}
 	
 
 }

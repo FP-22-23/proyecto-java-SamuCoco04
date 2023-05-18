@@ -1,25 +1,43 @@
 package fp.futbol;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Stream;
 
 import fp.common.Club;
 import fp.utiles.Checkers;
 import fp.utiles.Ficheros;
 
+
+
+
 public class FactoriaJugador {
-	public static List<Jugador> leeJugadores(String fichero){
-        List<Jugador> res = new ArrayList<>();
-        Checkers.checkNoNull(fichero);
-        List<String> lineas = Ficheros.leeFichero("Error lectura", fichero);
-        lineas.remove(0);
-        for(String linea:lineas) {
-            Jugador c= parseaJugador(linea);
-            res.add(c);
+	private static Implementacion implementacion = Implementacion.STREAMS;
+
+    public static void setImplementacion(Implementacion implementacion) {
+        FactoriaJugador.implementacion = implementacion;
+    }
+    public static Equipo leeEstudiantes(String fichero){
+        Equipo res = null;
+        try {
+            Stream<Jugador> sp= Files.lines(Paths.get(fichero))
+                    .skip(1)
+                    .map(FactoriaJugador::parseaJugador);
+            if(implementacion.equals(Implementacion.BUCLES)){
+                res = new EquipoBucles(sp);
+            }else {
+                res = new EquipoStreams(sp);
+            }
+        } catch (IOException e) {
+            System.out.println("No se ha encontrado el fichero");
+            e.printStackTrace();
         }
         return res;
     }
@@ -27,7 +45,7 @@ public class FactoriaJugador {
     private static Jugador parseaJugador(String s) {
         Checkers.checkNoNull(s);
         String [] trozos = s.split(",");
-        Checkers.check("Formato no válido", trozos.length==16);
+        
         String nombre=trozos[0].trim();
         List<String> posiciones= parsLista(trozos[1].trim());
         Integer valoracion=parsInt(trozos[2].trim());
