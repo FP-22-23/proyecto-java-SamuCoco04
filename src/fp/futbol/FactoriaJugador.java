@@ -4,16 +4,14 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fp.common.Club;
 import fp.utiles.Checkers;
-import fp.utiles.Ficheros;
 
 
 
@@ -24,8 +22,8 @@ public class FactoriaJugador {
     public static void setImplementacion(Implementacion implementacion) {
         FactoriaJugador.implementacion = implementacion;
     }
-    public static Equipo leeEstudiantes(String fichero){
-        Equipo res = null;
+    public static Equipo leeJugadores(String fichero){
+    	Equipo res = null;
         try {
             Stream<Jugador> sp= Files.lines(Paths.get(fichero))
                     .skip(1)
@@ -43,9 +41,7 @@ public class FactoriaJugador {
     }
 
     private static Jugador parseaJugador(String s) {
-        Checkers.checkNoNull(s);
-        String [] trozos = s.split(",");
-        
+    	String[] trozos= s.split(",");
         String nombre=trozos[0].trim();
         List<String> posiciones= parsLista(trozos[1].trim());
         Integer valoracion=parsInt(trozos[2].trim());
@@ -120,5 +116,5 @@ public class FactoriaJugador {
         Checkers.check("Fecha incorrecta", res.isBefore(LocalDate.now()));
         return res;
     }
-
+	
 }

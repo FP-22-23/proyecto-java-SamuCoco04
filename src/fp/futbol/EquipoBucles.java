@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.SortedMap;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class EquipoBucles implements Equipo {
@@ -30,13 +31,13 @@ public class EquipoBucles implements Equipo {
 		this.jugadores=new LinkedList<Jugador>();
 	}
 	public EquipoBucles(Stream<Jugador> jugador,Liga liga,Boolean ucl,Integer posicionLiga) {
-		this.jugadores=jugador.distinct().toList();
+		this.jugadores=jugador.collect(Collectors.toList());
 		this.liga=liga;
 		this.ucl=ucl;
 		this.posicionLiga=posicionLiga;
 	}
 	public EquipoBucles(Stream<Jugador> jugador) {
-		this.jugadores=jugador.distinct().toList();
+		this.jugadores=jugador.collect(Collectors.toList());
 	}
 	public List<Jugador> getJugadores() {
 		return jugadores;

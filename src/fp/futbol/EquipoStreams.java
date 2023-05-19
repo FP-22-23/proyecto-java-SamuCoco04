@@ -37,13 +37,13 @@ public class EquipoStreams implements Equipo {
 			this.jugadores=new LinkedList<Jugador>();
 		}
 		public EquipoStreams(Stream<Jugador> jugador,Liga liga,Boolean ucl,Integer posicionLiga) {
-			this.jugadores=jugador.distinct().toList();
+			this.jugadores=jugador.collect(Collectors.toList());
 			this.liga=liga;
 			this.ucl=ucl;
 			this.posicionLiga=posicionLiga;
 		}
 		public EquipoStreams(Stream<Jugador> jugador) {
-			this.jugadores=jugador.distinct().toList();
+			this.jugadores=jugador.collect(Collectors.toList());
 		}
 		@Override
 		public List<Jugador> getJugadores() {
