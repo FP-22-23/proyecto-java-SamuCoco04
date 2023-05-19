@@ -28,7 +28,7 @@ public interface Equipo {
 
 	Jugador maxalturadeEquipo(String Equipo);
 
-	List<Jugador> ordenaEquipo(String Equipo);
+	List<Jugador> ordenaEquipoPorAltura(String Equipo);
 
 	Map<PieBueno, List<Jugador>> agrupaPieBueno();
 

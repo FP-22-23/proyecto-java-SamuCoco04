@@ -1,5 +1,5 @@
 # Proyecto del Segundo Cuatrimestre Fundamentos de Programación (Curso  22/23)
-Autor/a: Alberto José Paleteiro López   uvus:STX3837
+Autor/a: Samuel Coco Delfa   uvus:TRV5192
 
 
 ## Estructura de las carpetas del proyecto
@@ -84,7 +84,7 @@ Compara los equipos.
 ### Factoría
 Descripción breve de la factoría.
 
--leeJugadores: através de lafunción parsea jugador, lee un csv y crea una lista con los jugadores ya con sus atributos del tipo correcto. 
+-leeJugadores: através de lafunción parsea jugador, lee un csv y crea una lista con los jugadores ya con sus atributos del tipo correcto y le da el metodo EquipoBucles o EquipoStreams.
 -parseaJugador: parsea los atributos del jugador a los tipos correctos..
 
 ### Tipo Contenedor
@@ -92,7 +92,8 @@ Descripción breve de la factoría.
 El tipo contenedor es un club que constará con una serie de jugadores(integrantes), la liga en la que juegan, si juegan o no la champions y su posicion en liga..
 
 **Propiedades**:
-List<Jugador> jugadores, lista con los jugadores
+
+List<Jugador> jugadores, lista con los jugadores
 Liga liga, enum con la liga en que juegan
 Boolean ucl, True si juegan ucl y false en caso contrario
  Integer posicionLiga, la posicion del equipo en Liga.
@@ -100,9 +101,12 @@ Boolean ucl, True si juegan ucl y false en caso contrario
 
 - C1: Todos los elementos menos la lista, la cual se inicializará vacía..
 - C2: Todos los elementos, incluidos la lista ya con unos jugadores..
+- C3: Todos los elementos(streams)
+- C4: Solo el Stream.
 - ...
 
-**Restricciones**:.
+**Restricciones**:
+.
 - ...
 - 
 **Criterio de igualdad**: Compara todos los elementos.d
@@ -120,4 +124,15 @@ Boolean ucl, True si juegan ucl y false en caso contrario
 -agrupaPieBueno: Agrupa en un mapa a los jugadores diestros en una clave y a los zurdos en la otra.
 
 -cuentaPieBueno: Cuenta los jugadores diestros y los zurdos y los mete en un map..
-- ...
+
+-maxalturadeEquipo: Jugador mas alto de un equipo dado.
+
+-ordenaEquipoPorAltura: Ordena un equipo dado por la altura.
+
+-mapJuagdoresClubes: Hace un mapa con los clubes y sus jugadores.
+
+-edadMasAltaPorClub:  Muestra la edad del jugador más mayor de cada equipo.
+
+-masAltosSegunPierna: Da un número a elegir de los jugadores más altos según su pierna hábil.
+
+-getEquipoConMenorSueldo: Da al equipo que tenga el jugador con menor sueldo.

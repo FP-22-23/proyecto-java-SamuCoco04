@@ -98,7 +98,7 @@ public class EquipoStreams implements Equipo {
 			return jugadores.stream().filter(j->j.getClub().getEquipo().equals(Equipo)).max(Comparator.comparing(Jugador::getAltura)).orElseThrow();
 		}
 		@Override
-		public List<Jugador> ordenaEquipo (String Equipo) {
+		public List<Jugador> ordenaEquipoPorAltura (String Equipo) {
 			return jugadores.stream().filter(j->j.getClub().getEquipo().equals(Equipo)).sorted(Comparator.comparing(Jugador::getAltura)).collect(Collectors.toList());
 		}
 		@Override
