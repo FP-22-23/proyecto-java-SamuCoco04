@@ -20,7 +20,7 @@ public class TestEquipoStreams {
         System.out.println(e1.mediaEdad());
         System.out.println(e1.filtraPieBueno(PieBueno.Left));
         System.out.println(e1.maxalturadeEquipo("Real Madrid CF"));
-        System.out.println(e1.ordenaEquipo("Real Madrid CF"));
+        System.out.println(e1.ordenaEquipoPorAltura("Real Madrid CF"));
         System.out.println(e1.agrupaPieBueno());
         System.out.println(e1.mapJuagdoresClubes());
         System.out.println(e1.edadMasAltaPorClub());
